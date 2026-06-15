@@ -68,22 +68,31 @@ export default function Privacy() {
           </section>
 
           <section>
-            <h2 className="text-xl font-bold mb-3">8. Your Rights</h2>
+            <h2 className="text-xl font-bold mb-3">8. Account Deletion</h2>
+            <p>
+              If you need to cancel your account, email us at{" "}
+              <a href="mailto:account-deletion@circle-family.com" className="text-primary hover:underline font-medium">account-deletion@circle-family.com</a>
+              {" "}and we will take care of it.
+            </p>
+          </section>
+
+          <section>
+            <h2 className="text-xl font-bold mb-3">9. Your Rights</h2>
             <p>Depending on your location, you may have rights regarding your personal information, including the right to access, correct, delete, or port your data. To exercise these rights, please contact us using the information below.</p>
           </section>
 
           <section>
-            <h2 className="text-xl font-bold mb-3">9. Children's Privacy</h2>
+            <h2 className="text-xl font-bold mb-3">10. Children's Privacy</h2>
             <p>The Service is intended for use by families, including parents managing schedules for their children. We do not knowingly collect personal information directly from children under 13 without parental consent.</p>
           </section>
 
           <section>
-            <h2 className="text-xl font-bold mb-3">10. Changes to This Policy</h2>
+            <h2 className="text-xl font-bold mb-3">11. Changes to This Policy</h2>
             <p>We may update this Privacy Policy from time to time. We will notify you of any changes by updating the "Last updated" date at the top of this page.</p>
           </section>
 
           <section>
-            <h2 className="text-xl font-bold mb-3">11. Contact Us</h2>
+            <h2 className="text-xl font-bold mb-3">12. Contact Us</h2>
             <p>If you have any questions about this Privacy Policy or our data practices, please contact us at:</p>
             <p className="mt-2">
               <a href="mailto:harshvardhan.n.sharma@gmail.com" className="text-primary hover:underline font-medium">harshvardhan.n.sharma@gmail.com</a>
