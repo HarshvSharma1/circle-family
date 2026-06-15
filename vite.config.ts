@@ -19,5 +19,12 @@ export default defineConfig({
   build: {
     outDir: path.resolve(import.meta.dirname, "dist"),
     emptyOutDir: true,
+    rollupOptions: {
+      input: {
+        main: path.resolve(import.meta.dirname, "index.html"),
+        privacy: path.resolve(import.meta.dirname, "privacy/index.html"),
+        terms: path.resolve(import.meta.dirname, "terms/index.html"),
+      },
+    },
   },
 });
