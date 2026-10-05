@@ -16,6 +16,7 @@ export default function Terms() {
         <div className="space-y-8 text-foreground/90 leading-relaxed">
           <section>
             <h2 className="text-xl font-bold mb-3">1. Acceptance of Terms</h2>
+            <p className="mb-3">Circle is operated by POLLINATR SYSTEMS PRIVATE LIMITED.</p>
             <p>By accessing or using the Circle application and related services ("Service"), you agree to be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, please do not use the Service.</p>
           </section>
 
