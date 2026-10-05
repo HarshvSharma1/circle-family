@@ -16,6 +16,7 @@ export default function Privacy() {
         <div className="space-y-8 text-foreground/90 leading-relaxed">
           <section>
             <h2 className="text-xl font-bold mb-3">1. Introduction</h2>
+            <p className="mb-3">Circle is operated by POLLINATR SYSTEMS PRIVATE LIMITED.</p>
             <p>Circle ("we," "our," or "us") is committed to protecting your privacy. This Privacy Policy explains how we collect, use, and safeguard your information when you use the Circle application and related services ("Service").</p>
           </section>
 

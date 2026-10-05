@@ -426,6 +426,9 @@ export default function Home() {
               <p className="text-muted-foreground max-w-sm">
                 Your family's schedule, finally organized. The intelligent assistant that turns chaos into calm.
               </p>
+              <p className="text-sm text-muted-foreground max-w-sm mt-4">
+                Circle is operated by POLLINATR SYSTEMS PRIVATE LIMITED.
+              </p>
             </div>
             
             <div>
@@ -451,9 +454,9 @@ export default function Home() {
             <div className="flex items-center gap-6 text-sm text-muted-foreground">
               <Link href="/terms" className="hover:text-primary transition-colors">Terms</Link>
               <Link href="/privacy" className="hover:text-primary transition-colors">Privacy</Link>
-              <a href="mailto:hello@circlefamily.app" className="font-medium text-foreground hover:text-primary transition-colors flex items-center gap-2 group">
+              <a href="mailto:hello@circle-family.com" className="font-medium text-foreground hover:text-primary transition-colors flex items-center gap-2 group">
                 <Mail className="h-4 w-4 group-hover:text-primary transition-colors" />
-                hello@circlefamily.app
+                hello@circle-family.com
               </a>
             </div>
           </div>
