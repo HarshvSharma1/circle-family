@@ -11,7 +11,7 @@ export default function Privacy() {
         </Link>
 
         <h1 className="text-4xl font-serif font-bold text-foreground mb-2">Privacy Policy</h1>
-        <p className="text-sm text-muted-foreground mb-12">Last updated: {new Date().toLocaleDateString("en-US", { month: "long", day: "numeric", year: "numeric" })}</p>
+        <p className="text-sm text-muted-foreground mb-12">Last updated: November 6, 2026</p>
 
         <div className="space-y-8 text-foreground/90 leading-relaxed">
           <section>
@@ -59,17 +59,25 @@ export default function Privacy() {
           </section>
 
           <section>
-            <h2 className="text-xl font-bold mb-3">6. Data Security</h2>
+            <h2 className="text-xl font-bold mb-3">6. Gmail Connections</h2>
+            <p className="mb-3">If you connect Gmail, Circle requests read-only access to review new Inbox and Sent emails, related threads, and supported attachments, including PDFs, images, and calendar invitations. Circle uses this information to help manage your family's schedule and tasks, and shares it with OpenAI for AI processing for that purpose.</p>
+            <p className="mb-3">Events and Tasks created from Gmail are shared with your family by default; imported private Calendar data retains its privacy. Circle keeps the triggering email and verified actions in your private agent history to provide context for later conversations. Earlier full thread content is reopened from Gmail when needed, subject to its availability and Circle's access. Circle discards raw source content for emails it filters out, keeping minimal identifiers to avoid repeat processing.</p>
+            <p className="mb-3">Disconnecting Gmail stops new Gmail processing; work already started may finish safely. Existing Events, Tasks, and agent history remain. You can request deletion of your account and associated data through the existing account deletion process or by contacting us.</p>
+            <p>Circle's use and transfer of information received from Google Workspace APIs will adhere to the Google Workspace User Data and Developer Policy, including its Limited Use requirements.</p>
+          </section>
+
+          <section>
+            <h2 className="text-xl font-bold mb-3">7. Data Security</h2>
             <p>We implement reasonable security measures to protect your personal information from unauthorized access, alteration, disclosure, or destruction. However, no method of electronic transmission or storage is completely secure, and we cannot guarantee absolute security.</p>
           </section>
 
           <section>
-            <h2 className="text-xl font-bold mb-3">7. Data Retention</h2>
+            <h2 className="text-xl font-bold mb-3">8. Data Retention</h2>
             <p>We retain your information for as long as your account is active or as needed to provide the Service. You may request deletion of your account and associated data at any time by contacting us.</p>
           </section>
 
           <section>
-            <h2 className="text-xl font-bold mb-3">8. Account Deletion</h2>
+            <h2 className="text-xl font-bold mb-3">9. Account Deletion</h2>
             <p>
               If you need to cancel your account, email us at{" "}
               <a href="mailto:account-deletion@circle-family.com" className="text-primary hover:underline font-medium">account-deletion@circle-family.com</a>
@@ -78,22 +86,22 @@ export default function Privacy() {
           </section>
 
           <section>
-            <h2 className="text-xl font-bold mb-3">9. Your Rights</h2>
+            <h2 className="text-xl font-bold mb-3">10. Your Rights</h2>
             <p>Depending on your location, you may have rights regarding your personal information, including the right to access, correct, delete, or port your data. To exercise these rights, please contact us using the information below.</p>
           </section>
 
           <section>
-            <h2 className="text-xl font-bold mb-3">10. Children's Privacy</h2>
+            <h2 className="text-xl font-bold mb-3">11. Children's Privacy</h2>
             <p>The Service is intended for use by families, including parents managing schedules for their children. We do not knowingly collect personal information directly from children under 13 without parental consent.</p>
           </section>
 
           <section>
-            <h2 className="text-xl font-bold mb-3">11. Changes to This Policy</h2>
+            <h2 className="text-xl font-bold mb-3">12. Changes to This Policy</h2>
             <p>We may update this Privacy Policy from time to time. We will notify you of any changes by updating the "Last updated" date at the top of this page.</p>
           </section>
 
           <section>
-            <h2 className="text-xl font-bold mb-3">12. Contact Us</h2>
+            <h2 className="text-xl font-bold mb-3">13. Contact Us</h2>
             <p>If you have any questions about this Privacy Policy or our data practices, please contact us at:</p>
             <p className="mt-2">
               <a href="mailto:harshvardhan.n.sharma@gmail.com" className="text-primary hover:underline font-medium">harshvardhan.n.sharma@gmail.com</a>
