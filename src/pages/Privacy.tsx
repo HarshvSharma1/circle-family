@@ -11,7 +11,7 @@ export default function Privacy() {
         </Link>
 
         <h1 className="text-4xl font-serif font-bold text-foreground mb-2">Privacy Policy</h1>
-        <p className="text-sm text-muted-foreground mb-12">Last updated: November 6, 2026</p>
+        <p className="text-sm text-muted-foreground mb-12">Last updated: November 9, 2026</p>
 
         <div className="space-y-8 text-foreground/90 leading-relaxed">
           <section>
@@ -52,14 +52,22 @@ export default function Privacy() {
             <h2 className="text-xl font-bold mb-3">5. Data Sharing</h2>
             <p>We do not sell your personal information. We may share your information only in the following circumstances:</p>
             <ul className="list-disc pl-6 mt-2 space-y-1">
-              <li><strong>With your family members:</strong> Calendar events and related information are shared with members of your family circle as part of the Service's core functionality</li>
+              <li><strong>With your family members:</strong> Calendar events and related information may be shared with members of your family circle according to your privacy settings</li>
               <li><strong>Service providers:</strong> We may use third-party services to help operate and improve the Service</li>
               <li><strong>Legal requirements:</strong> We may disclose information if required by law or to protect our rights and safety</li>
             </ul>
           </section>
 
           <section>
-            <h2 className="text-xl font-bold mb-3">6. Gmail Connections</h2>
+            <h2 className="text-xl font-bold mb-3">6. Google Calendar Connections</h2>
+            <p className="mb-3">If you connect Google Calendar, Circle uses your Google account identity to connect your account and shows the calendars you can select. Circle reads events from the calendars you choose to sync and stores event details, such as titles, times, locations and descriptions, and connection information needed to provide synchronization. The permissions Google grants can cover calendars accessible to your account; Circle uses your selections to determine which calendars to sync.</p>
+            <p className="mb-3">Circle creates, updates or deletes Google Calendar events in the calendars you select for synchronization when you have permission to make those changes, as needed to reflect changes made in Circle and keep events in sync. Changes to an event with guests may cause Google Calendar to notify them. Read-only connections do not make these changes to Google Calendar.</p>
+            <p className="mb-3">Imported events are private or visible to your family in Circle according to your calendar and event privacy settings; Google events marked private remain private in Circle. Circle may use Composio to process connection and calendar information to operate the Google Calendar connection. When calendar information is used by Circle's AI scheduling and coordination features, relevant information is shared with OpenAI for that processing. Calendar information may also be shared with service providers that help us operate the Service, as described in Data Sharing.</p>
+            <p>You can disconnect Google Calendar in Circle. Syncing with that account stops, and you can choose to keep imported events in Circle or remove them from Circle. Disconnecting does not itself delete your events in Google Calendar; other family members' eligible Google copies may continue to sync. You can also remove Circle's Google access in your Google Account settings. Removing access and disconnecting do not by themselves delete all information already stored in Circle. To request account and associated data deletion, contact us as described under Account Deletion.</p>
+          </section>
+
+          <section>
+            <h2 className="text-xl font-bold mb-3">7. Gmail Connections</h2>
             <p className="mb-3">If you connect Gmail, Circle requests read-only access to review new Inbox and Sent emails, related threads, and supported attachments, including PDFs, images, and calendar invitations. Circle uses this information to help manage your family's schedule and tasks, and shares it with OpenAI for AI processing for that purpose.</p>
             <p className="mb-3">Events and Tasks created from Gmail are shared with your family by default; imported private Calendar data retains its privacy. Circle keeps the triggering email and verified actions in your private agent history to provide context for later conversations. Earlier full thread content is reopened from Gmail when needed, subject to its availability and Circle's access. Circle discards raw source content for emails it filters out, keeping minimal identifiers to avoid repeat processing.</p>
             <p className="mb-3">Disconnecting Gmail stops new Gmail processing; work already started may finish safely. Existing Events, Tasks, and agent history remain. You can request deletion of your account and associated data through the existing account deletion process or by contacting us.</p>
@@ -67,17 +75,17 @@ export default function Privacy() {
           </section>
 
           <section>
-            <h2 className="text-xl font-bold mb-3">7. Data Security</h2>
+            <h2 className="text-xl font-bold mb-3">8. Data Security</h2>
             <p>We implement reasonable security measures to protect your personal information from unauthorized access, alteration, disclosure, or destruction. However, no method of electronic transmission or storage is completely secure, and we cannot guarantee absolute security.</p>
           </section>
 
           <section>
-            <h2 className="text-xl font-bold mb-3">8. Data Retention</h2>
+            <h2 className="text-xl font-bold mb-3">9. Data Retention</h2>
             <p>We retain your information for as long as your account is active or as needed to provide the Service. You may request deletion of your account and associated data at any time by contacting us.</p>
           </section>
 
           <section>
-            <h2 className="text-xl font-bold mb-3">9. Account Deletion</h2>
+            <h2 className="text-xl font-bold mb-3">10. Account Deletion</h2>
             <p>
               If you need to cancel your account, email us at{" "}
               <a href="mailto:account-deletion@circle-family.com" className="text-primary hover:underline font-medium">account-deletion@circle-family.com</a>
@@ -86,22 +94,22 @@ export default function Privacy() {
           </section>
 
           <section>
-            <h2 className="text-xl font-bold mb-3">10. Your Rights</h2>
+            <h2 className="text-xl font-bold mb-3">11. Your Rights</h2>
             <p>Depending on your location, you may have rights regarding your personal information, including the right to access, correct, delete, or port your data. To exercise these rights, please contact us using the information below.</p>
           </section>
 
           <section>
-            <h2 className="text-xl font-bold mb-3">11. Children's Privacy</h2>
+            <h2 className="text-xl font-bold mb-3">12. Children's Privacy</h2>
             <p>The Service is intended for use by families, including parents managing schedules for their children. We do not knowingly collect personal information directly from children under 13 without parental consent.</p>
           </section>
 
           <section>
-            <h2 className="text-xl font-bold mb-3">12. Changes to This Policy</h2>
+            <h2 className="text-xl font-bold mb-3">13. Changes to This Policy</h2>
             <p>We may update this Privacy Policy from time to time. We will notify you of any changes by updating the "Last updated" date at the top of this page.</p>
           </section>
 
           <section>
-            <h2 className="text-xl font-bold mb-3">13. Contact Us</h2>
+            <h2 className="text-xl font-bold mb-3">14. Contact Us</h2>
             <p>If you have any questions about this Privacy Policy or our data practices, please contact us at:</p>
             <p className="mt-2">
               <a href="mailto:harshvardhan.n.sharma@gmail.com" className="text-primary hover:underline font-medium">harshvardhan.n.sharma@gmail.com</a>
